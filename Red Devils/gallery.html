@@ -1,0 +1,162 @@
+<html>
+<head>
+<title>The Theatre of Dreams</title>
+</head>
+<body background="devil.jpg">
+<script src="jquery-1.11.3.min (1).js">
+</script>
+<script>
+$(document).ready(function(){
+ 	$("#thr").hide();
+	  $("#fou").hide();
+	$("#fif").hide();
+	$("#six").hide();
+	$("#sev").hide();
+	$("#eig").hide();
+});
+$(document).ready(function(){
+   	$("#two").click(function(){
+        	$("#one").hide();
+        	$("#thr").show();
+    	 });
+	});
+	$(document).ready(function(){
+   	$("#thr").click(function(){
+        	$("#two").toggle();
+	        $("#fou").show();
+	   });
+	});
+	$(document).ready(function(){
+	   $("#fou").click(function(){
+	        $("#thr").toggle();
+	        $("#fif").show();
+	   });
+	});
+	$(document).ready(function(){
+	   $("#fif").click(function(){
+	        $("#fou").toggle();
+	        $("#six").show();   
+	   });
+		});
+	$(document).ready(function(){
+	   $("#six").click(function(){
+	        $("#fif").toggle();
+	        $("#sev").show();  
+	 });
+	});
+	$(document).ready(function(){
+	   $("#sev").click(function(){
+	        $("#six").toggle();
+	        $("#eig").show(); 
+	  });
+	});
+	$(document).ready(function(){
+	   $("#eig").click(function(){
+	        $("#sev").toggle();
+	   });
+	});
+</script>
+<script type="text/javascript">
+function image1(){
+var a=document.createElement("img");
+var b=document.getElementById("para");
+a.src="old.jpg" ;
+a.height="576";
+a.width="1024";
+b.appendChild(a);
+}
+function image2(){
+var a=document.createElement("img");
+var c=document.getElementById("para");
+a.src="oldtr.jpg" ;
+a.height="576";
+a.width="1024";
+c.appendChild(a);
+}
+function image3(){
+var a=document.createElement("img");
+var d=document.getElementById("para");
+a.src="oldtra.jpg" ;
+a.height="576";
+a.width="1024";
+d.appendChild(a);
+}
+function image4(){
+var a=document.createElement("img");
+var e=document.getElementById("para");
+a.src="oldtraf.jpg" ;
+a.height="576";
+a.width="1024";
+e.appendChild(a);
+}
+function image5(){
+var a=document.createElement("img");
+var m=document.getElementById("para");
+a.src="oldtraff.jpg" ;
+a.height="576";
+a.width="1024";
+m.appendChild(a);
+}
+function image6(){
+var a=document.createElement("img");
+var x=document.body.getElementById("para");
+a.src="oldtraffo.jpg" ;
+a.height="576";
+a.width="1024";
+x.appendChild(a);
+}
+function image7(){
+var a=document.createElement("img");
+var y=document.body.getElementById("para");
+a.src="oldtraffor.jpg" ;
+a.height="576";
+a.width="1024";
+y.appendChild(a);
+}
+function image8(){
+var a=document.createElement("img");
+var z=document.body.getElementById("para");
+a.src="oldt.jpg" ;
+a.height="576";
+a.width="1024";
+z.appendChild(a);
+}
+</script>
+<font face="Comic Sans MS" color="white">
+<center><h1>The Theatre of Dreams</h1></center>
+<p >
+Old Trafford is a football stadium in Old Trafford, Greater Manchester, England, and the home of Manchester United.
+ With a capacity of 75,635, it is the largest club stadium of any football team in the United Kingdom, the third-largest stadium 
+and the second-largest football stadium in the United Kingdom, and the eleventh-largest in Europe.It is about 0.5 miles (800 m) 
+from Old Trafford Cricket Ground and the adjacent tram station.
+<br><br>
+Old Trafford, nicknamed "The Theatre of Dreams" by Bobby Charlton, has been United's home ground since 1910, 
+although from 1941 to 1949, the club shared Maine Road with local rivals Manchester City as a result of Second World War bomb damage. 
+Old Trafford underwent several expansions in the 1990s and 2000s, including the addition of extra tiers to the North,
+ West and East Stands, almost returning the stadium to its original capacity of 80,000. 
+Future expansion is likely to involve the addition of a second tier to the South Stand, which would raise the capacity to over 90,000.
+ The stadium's record attendance was recorded in 1939, when 76,962 spectators watched the FA Cup semi-final
+ between Wolverhampton Wanderers and Grimsby Town.
+<br><br>
+Old Trafford has hosted FA Cup semi-finals, England fixtures, matches at the 1966 World Cup 
+and Euro 96 and the 2003 Champions League Final, as well as rugby league's 
+annual Super League Grand Final and the final of two Rugby League World Cups. 
+It also hosted football matches at the 2012 Summer Olympics, including women's international football for the first time in its history.
+<br><br>
+</font>
+<center>
+<h3>Old Trafford Wallpapers</h3>
+<button  id="one" onclick="image1()">Click here</button>
+<button  id="two" onclick="image2()">Next</button>
+<button  id="thr" onclick="image3()">Next</button>
+<button  id="fou" onclick="image4()">Next</button>
+<button  id="fif" onclick="image5()">Next</button>
+<button  id="six" onclick="image6()">Next</button>
+<button  id="sev" onclick="image7()">Next</button>
+<button  id="eig" onclick="image8()">Next</button>
+</center>
+</p>
+<p id="para">
+</p>
+</body>
+</html>
